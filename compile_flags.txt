@@ -1,0 +1,6 @@
+--driver-mode=gcc   
+-Iinclude
+-std=c17
+-Wall
+-Wextra
+-Wimplicit-function-declaration
