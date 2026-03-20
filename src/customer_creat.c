@@ -2,7 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
+/**
+ * @brief 创建用户信息
+ * @param 结构体指针 List* plist
+ * @return 无   
+ */
 void customer_creat(List* plist)
 {
     Node* p=(Node*)malloc(sizeof(Node));

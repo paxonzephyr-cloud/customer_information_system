@@ -1,7 +1,11 @@
 #include "declare.h"
 #include <stdio.h>
 
-
+/**
+ * @brief 清除缓存区
+ * @param 无  
+ * @return 无  
+ */
 void clear_input_buffer(void)
 {
     int ch;
