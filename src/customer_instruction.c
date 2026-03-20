@@ -1,6 +1,11 @@
 #include "declare.h"
 #include <stdio.h>
 
+/**
+ * @brief 列出系统基本信息及操作
+ * @param 无
+ * @return 无   
+ */
 void customer_instruction(void)
 {
     printf("                用户输入数字选择功能(1~5)\n");

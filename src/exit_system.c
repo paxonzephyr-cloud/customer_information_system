@@ -2,9 +2,18 @@
 #include "declare.h"
 #include <stdlib.h>
 
+/**
+ * @brief 释放链表内存
+ * @param 结构体指针 List* plist
+ * @return 无   
+ */
 void list_destroy(List* plist);
 
-void exit_system(List* plist)
+/**
+ * @brief 离开程序
+ * @param 结构体指针 List* plist
+ * @return 无   
+ */void exit_system(List* plist)
 {
     char ch;
 

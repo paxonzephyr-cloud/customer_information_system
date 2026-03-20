@@ -2,6 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * @brief 删除用户信息
+ * @param 结构体指针 List* plist
+ * @return 无   
+ */
 void customer_del(List* plist)
 {
     printf("要删除的编号是:");

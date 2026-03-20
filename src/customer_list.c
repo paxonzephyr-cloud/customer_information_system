@@ -1,7 +1,12 @@
 #include "declare.h"
 #include <stdio.h>
 
-void customer_list(List* plist)
+
+/**
+ * @brief 列出所有用户信息
+ * @param 结构体指针 List* plist
+ * @return 无   
+ */void customer_list(List* plist)
 {
     printf("\n");
     printf("--- 当前系统共有 %d 名客户 ---\n", plist->total_count);

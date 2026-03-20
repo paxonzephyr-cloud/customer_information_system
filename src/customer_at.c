@@ -1,6 +1,11 @@
 #include "declare.h"
 #include <stdio.h>
 
+/**
+ * @brief 修改客户数据
+ * @param 结构体指针 List*
+ * @return 无  
+ */
 void customer_at(List* plist)
 {
     printf("要修改的编号是:");
